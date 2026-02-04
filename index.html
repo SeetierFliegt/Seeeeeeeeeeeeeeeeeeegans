@@ -126,5 +126,39 @@
       }
     }, 2000);
   </script>
+
+<!-- Libraries für Javascript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>  <!--x-->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>  <!--x-->
+<!-- Verlinkung zur JS Datei -->
+<script defer src="converterJS.js"></script>  <!--x-->
+</head>
+<body>
+<h1>Excel Datei einlesen!</h1>
+<!-- File picker -->
+<input type="file" id="demoA" accept=".xls,.xlsx">  <!--x-->
+<!-- leere Tabelle wird erstellt -->
+<table id="demoB"></table> <!--x-->
+
+<!--Graphen-->
+<div class="row justify-content-center mt-4"> <!--x-->
+  <div class="col-10"> <!--x-->
+    <div class="card"> <!--x-->
+      <div class="card-body"> <!--x-->
+        <p> </p>
+        <canvas id="myChart1"></canvas> <!--x-->
+        <p> </p>
+        <canvas id="myChart2"></canvas>
+        <p> </p>
+        <canvas id="myChart3"></canvas>
+        <p> </p>
+        <canvas id="myChart4"></canvas>
+        <p> </p>
+        <canvas id="myChart5"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+  
 </body>
 </html>
