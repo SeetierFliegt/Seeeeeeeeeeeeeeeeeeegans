@@ -1,3 +1,6 @@
+document.getElementById("demoA").onchange = evt => //x
+{
+
 //Arrays
 var koordinaten =
 [[6.9749162, 51.3242108],
@@ -682,4 +685,5 @@ else if(input == "l")
 else
 {
   print("Das war kein valider Eingabewert, versuchen Sie es nochmal!");
+}
 }
